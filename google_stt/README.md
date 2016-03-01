@@ -10,8 +10,9 @@ Google speech to text sample
 ```bash
 $ git clone git@github.com:shiraco/google_stt.git
 $ cd google_stt
-$ source ./venv/bin/activate
-(venv)$ pip install -r requirements.txt
+$ virtualenv .venv
+$ source .venv/bin/activate
+(.venv)$ pip install -r requirements.txt
 ```
 
 ## Setting API KEY
