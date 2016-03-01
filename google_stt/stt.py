@@ -12,7 +12,7 @@ TIMEOUT = 30
 def stt_google_wav(filename):
     q = {"output": "json", "lang": "ja-JP", "key": apikey}
 
-    url = "http://www.google.com/speech-api/v2/recognize?%s" % (urllib.urlencode(q))
+    url = "http://www.google.com/speech-api/v2/recognize?%s" % (urllib.parse.urlencode(q))
 
     headers = {"Content-Type": "audio/l16; rate=16000"}
     data = open(filename, "rb").read()
