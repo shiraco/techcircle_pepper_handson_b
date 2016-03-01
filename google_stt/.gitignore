@@ -60,4 +60,7 @@ docs/_build/
 target/
 
 .env
+.envrc
+
 venv/
+.venv/

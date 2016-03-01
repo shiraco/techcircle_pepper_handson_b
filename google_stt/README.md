@@ -23,6 +23,15 @@ $ source ./venv/bin/activate
 apikey = "YOUT_API_KEY_HERE"
 ```
 
+Or if you use [direnv](https://github.com/direnv/direnv),
+
+```bash
+$ cp .env.sample .envrc
+$ vi .envrc  # update your api key
+$ cd ..
+$ cd google_stt  # apply api key as a environment variable
+```
+
 Or if you use [autoenv](https://github.com/kennethreitz/autoenv),
 
 ```bash
